@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.4"?>
+
+<product name="OmniSpot Designer" id="com.kesdip.designer.product" application="com.kesdip.designer.application" version="1.1.7" useFeatures="true">
+
+   <aboutInfo>
+      <image path="/com.kesdip.designer/splash.png"/>
+      <text>
+         OmniSpot Designer (v.1.1.7) 
+Copyright 2009-2010
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>--launcher.XXMaxPermSize
+256M</programArgs>
+      <vmArgs>-Dosgi.requiredJavaVersion=1.6
+-Xms64m
+-Xmx768m
+-XX:+UseConcMarkSweepGC
+-XX:+CMSIncrementalMode</vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="icons/display.png" i32="icons/display_large.png"/>
+
+
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="com.kesdip.designer.feature" version="1.1.6"/>
+   </features>
+
+</product>
